@@ -1,5 +1,10 @@
 {
   "files": [],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "types": ["@testing-library/jest-dom"],
+    "jsx": "react-jsx"
+  },
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }

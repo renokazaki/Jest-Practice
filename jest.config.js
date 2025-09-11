@@ -1,5 +1,6 @@
-/** @type {import("jest").Config} **/
+/** @type {import('ts-jest').JestConfigWithTsJest} **/
 export default {
   preset: "ts-jest",
-  testEnvironment: "node",
+  testEnvironment: "jest-environment-jsdom",
+  setupFilesAfterEnv: ["./jest.setup.ts"],
 };
