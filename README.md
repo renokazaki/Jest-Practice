@@ -82,5 +82,11 @@ import "@testing-library/jest-dom";
 
 
 
-#### 参考
+## 参考
 TypeScriptではじめるWebアプリケーションテスト入門
+
+### Testing Library 
+https://testing-library.com/docs/react-testing-library/example-intro
+
+### Jest
+https://jestjs.io/
