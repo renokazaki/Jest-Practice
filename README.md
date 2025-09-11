@@ -83,7 +83,6 @@ import "@testing-library/jest-dom";
   "compilerOptions": {
     "jsx": "react-jsx",
     "types": ["@testing-library/jest-dom"],
-    "exclude": ["**/*.test.tsx", "**/*.test.ts"]
   }
 }
 ```
