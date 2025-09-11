@@ -69,13 +69,14 @@ import "@testing-library/jest-dom";
 ```
 
 ### ⑤tsconfig.jsonに以下の内容を記載
-
+```
 {
   "compilerOptions": {
     "jsx": "react-jsx",
     "types": ["@testing-library/jest-dom"],
   }
 }
+```
 
 ## エラーが発生した場合
 
